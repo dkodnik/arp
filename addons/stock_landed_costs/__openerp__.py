@@ -46,7 +46,7 @@ This module allows you to easily add extra costs on pickings and decide the spli
     'test': [
     ],
     'installable': True,
-    'application': True,
+    'application': False,
     'auto_install': False,
 }
 

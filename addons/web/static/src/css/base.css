@@ -3441,3 +3441,15 @@ input[type="radio"], input[type="checkbox"] {
   background-color: black;
   opacity: 0.6;
 }
+
+
+.modal.in .modal-dialog {
+  height: 100%;
+}
+.modal-content {
+  height: 100%;
+}
+.modal-body {
+  height: 80%;
+  overflow-y: auto;
+}
