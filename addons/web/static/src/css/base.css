@@ -3444,7 +3444,7 @@ input[type="radio"], input[type="checkbox"] {
 
 
 .modal.in .modal-dialog {
-  height: 100%;
+  /*height: 100%;*/
 }
 .modal-content {
   height: 100%;
