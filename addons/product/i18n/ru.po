@@ -323,7 +323,7 @@ msgstr "Исходящее"
 #: model:product.price.type,name:product.list_price
 #: field:product.product,lst_price:0
 msgid "Public Price"
-msgstr "Открытый каталог"
+msgstr "Розничная цена"
 
 #. module: product
 #: field:product.price_list,qty5:0
