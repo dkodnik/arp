@@ -3443,8 +3443,8 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 
-.modal.in .modal-dialog {
-  /*height: 100%;*/
+/*.modal.in .modal-dialog {
+  height: 100%;
 }
 .modal-content {
   height: 100%;
@@ -3452,4 +3452,4 @@ input[type="radio"], input[type="checkbox"] {
 .modal-body {
   height: 80%;
   overflow-y: auto;
-}
+}*/
