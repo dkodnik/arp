@@ -19,7 +19,7 @@ msgstr ""
 #. module: point_of_sale
 #: field:report.transaction.pos,product_nb:0
 msgid "Product Nb."
-msgstr ""
+msgstr "Продукт №"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree_today
@@ -42,16 +42,28 @@ msgid ""
 "              </p>\n"
 "            "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Нажмите, чтобы определить новую категорию.\n"
+"              </p><p>\n"
+"                Категории используются, чтобы просмотреть свои продукты через \n"
+"                интерфейс сенсорного экрана.\n"
+"              </p><p>\n"
+"                Если поставить фото на категории, компануется\n"
+"                на экране автоматически. Мы предлагаем не "
+"ставить фотографии\n"
+"                на категории для малых экранов (1024x768).\n"
+"              </p>\n"
+"            "
 
 #. module: point_of_sale
 #: view:pos.receipt:0
 msgid "Print the Receipt of the Sale"
-msgstr ""
+msgstr "Распечатать квитанцию о продаже"
 
 #. module: point_of_sale
 #: field:pos.session,cash_register_balance_end:0
 msgid "Computed Balance"
-msgstr ""
+msgstr "Вычислить баланс"
 
 #. module: point_of_sale
 #: view:pos.session:0
@@ -62,35 +74,35 @@ msgstr "Cегодня"
 #. module: point_of_sale
 #: field:pos.config,iface_electronic_scale:0
 msgid "Electronic Scale Interface"
-msgstr ""
+msgstr "Интерфейс электронных весов"
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.plain_water
 msgid "Plain Water"
-msgstr ""
+msgstr "Чистая Вода"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.poire_conference_product_template
 msgid "Conference pears"
-msgstr ""
+msgstr "Конференц-груши"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:398
 #, python-format
 msgid "&atilde;"
-msgstr ""
+msgstr "&atilde;"
 
 #. module: point_of_sale
 #: field:pos.config,journal_id:0
 #: field:pos.order,sale_journal:0
 msgid "Sale Journal"
-msgstr ""
+msgstr "Журнал продаж"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.spa_2l_product_template
 msgid "Spa Reine 2L"
-msgstr ""
+msgstr "Королева Спа 2литра"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_lines_detail
@@ -102,7 +114,7 @@ msgstr "Подробности продаж"
 #. module: point_of_sale
 #: constraint:pos.config:0
 msgid "You cannot have two cash controls in one Point Of Sale !"
-msgstr ""
+msgstr "Вы не можете иметь два денежных управления на одной Точке Продаж!"
 
 #. module: point_of_sale
 #: field:pos.payment.report.user,user_id:0
@@ -111,7 +123,7 @@ msgstr ""
 #: view:report.pos.order:0
 #: field:report.pos.order,user_id:0
 msgid "Salesperson"
-msgstr ""
+msgstr "Продавец"
 
 #. module: point_of_sale
 #: view:report.pos.order:0
@@ -123,18 +135,18 @@ msgstr "День"
 #: field:report.sales.by.margin.pos,product_name:0
 #: field:report.sales.by.margin.pos.month,product_name:0
 msgid "Product Name"
-msgstr ""
+msgstr "Название продукта"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.pamplemousse_rouge_pamplemousse_product_template
 msgid "Red grapefruit"
-msgstr ""
+msgstr "Красный грейпфрут"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1373
 #, python-format
 msgid "Assign a Custom EAN"
-msgstr ""
+msgstr "Связать пользовательского EAN"
 
 #. module: point_of_sale
 #: view:pos.session.opening:0
@@ -143,6 +155,9 @@ msgid ""
 "                          being able to start selling through the "
 "touchscreen interface."
 msgstr ""
+"Вам, возможно, придется контролировать свои денежные суммы в кассе,\n"
+"                          прежде чем он сможет начать продавать через "
+"сенсорный интерфейс."
 
 #. module: point_of_sale
 #: report:account.statement:0
@@ -158,13 +173,13 @@ msgstr "Сумма"
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_box_out
 #: view:pos.session:0
 msgid "Take Money Out"
-msgstr ""
+msgstr "Возьмите деньги из"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:105
 #, python-format
 msgid "not used"
-msgstr ""
+msgstr "не используется"
 
 #. module: point_of_sale
 #: field:pos.config,iface_vkeyboard:0
@@ -176,12 +191,12 @@ msgstr "Виртуальная клавиатура"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:96
 #, python-format
 msgid "+/-"
-msgstr ""
+msgstr "+/-"
 
 #. module: point_of_sale
 #: field:pos.ean_wizard,ean13_pattern:0
 msgid "Reference"
-msgstr ""
+msgstr "Ссылка"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1066
@@ -195,37 +210,37 @@ msgstr "Налог"
 #. module: point_of_sale
 #: report:pos.user.product:0
 msgid "Starting Date"
-msgstr ""
+msgstr "Дата начала"
 
 #. module: point_of_sale
 #: constraint:pos.session:0
 msgid "You cannot create two active sessions with the same responsible!"
-msgstr ""
+msgstr "Вы не можете создать два активных сеанса под тем же Ответственным!"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:473
 #, python-format
 msgid "Weighting"
-msgstr ""
+msgstr "Взвешивание"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.fenouil_fenouil_product_template
 msgid "Fennel"
-msgstr ""
+msgstr "Укроп"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:472
 #, python-format
 msgid "Help needed"
-msgstr ""
+msgstr "Необходима помощь"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:760
 #, python-format
 msgid "Configuration Error!"
-msgstr ""
+msgstr "Ошибка конфигурации!"
 
 #. module: point_of_sale
 #: report:account.statement:0
@@ -237,7 +252,7 @@ msgstr "Контрагент"
 #. module: point_of_sale
 #: view:pos.session:0
 msgid "Closing Cash Control"
-msgstr ""
+msgstr "Закрытие Контроль Наличности"
 
 #. module: point_of_sale
 #: report:pos.details:0
@@ -254,12 +269,12 @@ msgstr "Средняя цена"
 #. module: point_of_sale
 #: view:pos.order:0
 msgid "Accounting Information"
-msgstr ""
+msgstr "Учетная информация"
 
 #. module: point_of_sale
 #: field:pos.session.opening,show_config:0
 msgid "Show Config"
-msgstr ""
+msgstr "Показать настройки"
 
 #. module: point_of_sale
 #: report:pos.lines:0
@@ -277,7 +292,7 @@ msgstr "Всего скидка"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:441
 #, python-format
 msgid "Debug Window"
-msgstr ""
+msgstr "Окно отладки"
 
 #. module: point_of_sale
 #. openerp-web
@@ -285,12 +300,12 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/pos.xml:613
 #, python-format
 msgid "Change:"
-msgstr ""
+msgstr "Изменено:"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_regular_2l_product_template
 msgid "Coca-Cola Regular 2L"
-msgstr ""
+msgstr "Coca-Cola Regular 2литра"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_trans_pos_tree_month
@@ -300,7 +315,7 @@ msgstr "Продажи за месяц"
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.soda_orange
 msgid "Orange"
-msgstr ""
+msgstr "Апельсиновый"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_sales_by_user_pos_today
@@ -318,7 +333,7 @@ msgstr "Скидка (%)"
 #: code:addons/point_of_sale/point_of_sale.py:1031
 #, python-format
 msgid "Please define income account for this product: \"%s\" (id:%d)."
-msgstr ""
+msgstr "Пожалуйста, определите счет доходов для данного продукта: \"%s\" (id:%d)."
 
 #. module: point_of_sale
 #: view:report.pos.order:0
@@ -329,7 +344,7 @@ msgstr "Итоговая цена"
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.leffe_brune_33cl_product_template
 msgid "Leffe Brune 33cl"
-msgstr ""
+msgstr "Leffe Brune объёмом 33cl"
 
 #. module: point_of_sale
 #: help:pos.config,iface_self_checkout:0
@@ -337,6 +352,9 @@ msgid ""
 "Check this if this point of sale should open by default in a self checkout "
 "mode. If unchecked, OpenERP uses the normal cashier mode by default."
 msgstr ""
+"Проверьте это, если эта точка продажи должна быть открыть по умолчанию в режиме "
+"кассы самообслуживания. Если флажок не установлен, OpenERP использует по умолчанию "
+"обычный режим кассира."
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_sales_user
@@ -347,7 +365,7 @@ msgstr "Отчет о продажах"
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.beverage
 msgid "Beverages"
-msgstr ""
+msgstr "Напитки"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_session_opening
@@ -607,6 +625,20 @@ msgid ""
 "              </p>\n"
 "            "
 msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Нажмите, чтобы начать новый сеанс.\n"
+"              </p><p>\n"
+"                Продолжительность сеанса, как правило один день, "
+"в течение\n"
+"                которого вы продаете через Точку Продажи. Пользователь должен "
+"проверить\n"
+"                наличность в кассах - в начале и в конце каждого сеанса.\n"
+"              </p><p>\n"
+"                Обратите внимание, что вы должны использовать меню <i>Ваш "
+"сеанс</i>\n"
+"                , чтобы быстро открыть новый сеанс.\n"
+"              </p>\n"
+"            "
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:888
@@ -1394,7 +1426,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_session
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_session_all
 msgid "All Sessions"
-msgstr ""
+msgstr "Все сеансы"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2267,7 +2299,7 @@ msgstr ""
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_config_pos
 #: view:pos.session:0
 msgid "Point of Sales"
-msgstr ""
+msgstr "Точка продаж"
 
 #. module: point_of_sale
 #: report:pos.details:0
@@ -2301,7 +2333,7 @@ msgstr "Число печати"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_make_payment
 msgid "Point of Sale Payment"
-msgstr ""
+msgstr "Оплата Точки продаж"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.coca_light_50cl_product_template
@@ -3441,7 +3473,7 @@ msgstr "Менеджер продаж"
 #: view:pos.sale.user:0
 #, python-format
 msgid "or"
-msgstr ""
+msgstr "или"
 
 #. module: point_of_sale
 #: report:pos.details:0
@@ -3455,7 +3487,7 @@ msgstr "Выставлен счет"
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "New Session"
-msgstr ""
+msgstr "Новый сеанс"
 
 #. module: point_of_sale
 #: field:pos.config,group_by:0
@@ -3498,7 +3530,7 @@ msgstr ""
 #: code:addons/point_of_sale/wizard/pos_box.py:23
 #, python-format
 msgid "There is no cash register for this PoS Session"
-msgstr ""
+msgstr "Там нет наличности для этого PoS сеанса"
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.special_beers
@@ -3673,7 +3705,7 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "The session"
-msgstr ""
+msgstr "Сеанс"
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -3688,7 +3720,7 @@ msgstr "Сумма подитогов"
 #. module: point_of_sale
 #: view:pos.session.opening:0
 msgid "Close Session"
-msgstr ""
+msgstr "Закончить сеанс"
 
 #. module: point_of_sale
 #: view:pos.order:0
@@ -3986,7 +4018,7 @@ msgstr ""
 #: model:ir.ui.menu,name:point_of_sale.menu_point_ofsale
 #: field:pos.session,order_ids:0
 msgid "Orders"
-msgstr ""
+msgstr "Заказы"
 
 #~ msgid ","
 #~ msgstr ","
